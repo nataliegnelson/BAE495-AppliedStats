@@ -3,8 +3,8 @@ title: "Glossary"
 author: "BAE 495/590"
 date: "01/26/2018"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}

@@ -1,0 +1,1 @@
+- AQI values included in this assignment were calculated from different air quality constituents (e.g., particulate matter, ozone). Instead, filter dataset so that we're only looking at values measured from one constituent (e.g. PM) so that students can be asked to hypothesize as to why AQI values were worse in certain areas.
