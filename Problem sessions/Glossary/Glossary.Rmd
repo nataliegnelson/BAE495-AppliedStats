@@ -1,0 +1,68 @@
+---
+title: "Glossary"
+author: "BAE 495/590"
+date: "01/26/2018"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+***
+**Base R**  
+
+* `help()` - pull up documentation on a function
+
+* `rm(list=ls(all=TRUE))` - clear workspace  
+
+* `setwd()` - set working directory  
+
+* `getwd()` - get working directory  
+
+* `install.packages()` - install package  
+
+* `library()` - load package  
+
+* `readRDS()` - read a .rds file  
+
+* `nrow()` - number of rows  
+
+* `ncol()` - number of columns  
+
+* `dim()` - dimension of a dataframe or matrix in [rows, columns]  
+
+* `colnames()` - print column names of a dataframe  
+
+* `str()` - structure of an object  
+
+* `head()` - print the first rows of a dataframe  
+
+* `tail()` - print the last rows of a dataframe  
+
+* `unique()` - print all unique values  
+
+* `min()` - minimum  
+
+* `max()` - maximum  
+
+* `summary()` - print a generic summary of all columns in a dataframe  
+
+* `subset()` - create a subset of a dataframe based on a specific criterion  
+
+* `droplevels()` - remove unused levels from a dataframe  
+
+* `plot()` - create a (x,y) plot  
+
+* `hist()` - histogram  
+
+* `abline()` - add a vertical or horizontal line to a plot  
+
+* `boxplot()` - boxplot 
+
+***
+**Package: `plyr`**  
+
+* `ddply()` - create custom summaries of a dataframe
